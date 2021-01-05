@@ -1,0 +1,24 @@
+CONSUMER_KEY = 'nXRg0hoYWzE9sFTlKAnuqXa6S'
+CONSUMER_SECRET = 'eonNytxsBCMiZj39adCssAINStnFFiNy5HIjmyrSKahmVsN2e4'
+ACCESS_TOKEN_KEY = '1337005268870201351-5pstLZhHvutLjJGq8BwpYsH76kWdpG'
+ACCESS_TOKEN_SECRET = 'XSCBO0H1Jtcw8C8hQ5tekisEwPOdpe7QqMgMEyjI8qaHq'
+
+CONSUMER_KEY = 'nXRg0hoYWzE9sFTlKAnuqXa6S'
+CONSUMER_SECRET = 'eonNytxsBCMiZj39adCssAINStnFFiNy5HIjmyrSKahmVsN2e4'
+ACCESS_TOKEN = '1337005268870201351-5pstLZhHvutLjJGq8BwpYsH76kWdpG'
+ACCESS_TOKEN_SECRET = 'XSCBO0H1Jtcw8C8hQ5tekisEwPOdpe7QqMgMEyjI8qaHq'
+
+CONSUMER_KEY = 'nXRg0hoYWzE9sFTlKAnuqXa6S'
+CONSUMER_SECRET = 'eonNytxsBCMiZj39adCssAINStnFFiNy5HIjmyrSKahmVsN2e4'
+ACCESS_KEY = '1337005268870201351-5pstLZhHvutLjJGq8BwpYsH76kWdpG'
+ACCESS_SECRET = 'XSCBO0H1Jtcw8C8hQ5tekisEwPOdpe7QqMgMEyjI8qaHq'
+
+consumer_key = 'nXRg0hoYWzE9sFTlKAnuqXa6S'
+consumer_secret = 'eonNytxsBCMiZj39adCssAINStnFFiNy5HIjmyrSKahmVsN2e4'
+access_token_key = '1337005268870201351-5pstLZhHvutLjJGq8BwpYsH76kWdpG'
+access_token_secret = 'XSCBO0H1Jtcw8C8hQ5tekisEwPOdpe7QqMgMEyjI8qaHq'
+
+consumer_key = 'nXRg0hoYWzE9sFTlKAnuqXa6S'
+consumer_secret = 'eonNytxsBCMiZj39adCssAINStnFFiNy5HIjmyrSKahmVsN2e4'
+access_token = '1337005268870201351-5pstLZhHvutLjJGq8BwpYsH76kWdpG'
+access_token_secret = 'XSCBO0H1Jtcw8C8hQ5tekisEwPOdpe7QqMgMEyjI8qaHq'
