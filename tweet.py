@@ -3,6 +3,7 @@
 
 import tweepy
 import config
+import datetime
 
 # 取得した各種キーを格納-----------------------------------------------------
 consumer_key = config.consumer_key
@@ -15,14 +16,14 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 # ツイート
-for i in range(2):
-    import datetime
-    dt_now = datetime.datetime.now()
-    api.update_status(str(dt_now))
+for i in range(1):
+    d = datetime.datetime.now()
+    text = d.strftime ("%Y/%m/%d %H:%M:%S")
+    api.update_status(text)
 
 
-from sympy import prime, sieve
-prime = [i for i in sieve.primerange(1,100)]
+#from sympy import prime, sieve
+#prime = [i for i in sieve.primerange(1,100)]
 
 
 # いいね
