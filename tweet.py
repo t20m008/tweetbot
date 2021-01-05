@@ -4,7 +4,7 @@
 import tweepy
 import config
 import datetime
-
+import pytz
 # 取得した各種キーを格納-----------------------------------------------------
 consumer_key = config.consumer_key
 consumer_secret = config.consumer_secret
@@ -17,8 +17,8 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 # ツイート
 for i in range(1):
-    d = datetime.datetime.now()
-    text = d.strftime ("%Y/%m/%d %H:%M:%S")
+    d = datetime.datetime.now(pytz.timezone('Asia/Tokyo'))
+    text = d.strftime("%Y/%m/%d %H:%M:%S")
     api.update_status(text)
 
 
