@@ -30,6 +30,7 @@ jobs:
           # 必要なパッケージインストール
           pip install line-bot-sdk
           pip install tweepy
+          pip install sympy
       - name: Run script
         run: |
           # main.pyの実行
