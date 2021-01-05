@@ -3,7 +3,6 @@ name: push_tweet
 
 on:
   push:
-    
 
 jobs:
   build:
@@ -26,6 +25,7 @@ jobs:
           pip install line-bot-sdk
           pip install tweepy
           pip install sympy
+          pip install pytz
       - name: Run script
         run: |
           # tweet.pyの実行

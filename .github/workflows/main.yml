@@ -3,7 +3,7 @@ name: schedule_tweet
 
 on:
   schedule:
-    - cron: '*/3 * * * *'
+    - cron: '*/10 * * * *'
 
 jobs:
   build:
@@ -26,7 +26,8 @@ jobs:
           pip install line-bot-sdk
           pip install tweepy
           pip install sympy
+          pip install pytz
       - name: Run script
         run: |
           # tweet.pyの実行
-          python main.py
+          python tweet.py
